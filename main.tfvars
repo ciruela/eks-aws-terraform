@@ -64,6 +64,6 @@ subnets_private_cidr_blocks = ["192.168.128.0/18", "192.168.192.0/18"]
 
 subnets_availability_zones = ["us-east-1a", "us-east-1b"]
 
-eks_name = "Azumo"
+eks_name = ""
 
 eks_version = "1.20"

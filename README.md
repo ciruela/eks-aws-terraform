@@ -17,7 +17,7 @@ Deployment
 
 4- terraform apply plans/plan-X
 
-5- aws eks --region us-east-1 update-kubeconfig --name  --profile terraform
+5- aws eks --region us-east-1 update-kubeconfig --name Azumo --profile terraform
 
 
 ISTIO

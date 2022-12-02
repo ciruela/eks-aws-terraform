@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "azumo-devops"
+    bucket = ""
     key    = "Terraform/eks.tfstate"
     region = "us-east-1"
   }

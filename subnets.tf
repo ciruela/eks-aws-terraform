@@ -8,7 +8,7 @@ resource "aws_subnet" "public_1" {
   vpc_id                  = aws_vpc.main.id
   cidr_block              = var.subnets_public_cidr_blocks[0]
   availability_zone       = var.subnets_availability_zones[0]
-  map_public_ip_on_launch = var.map_public_ip_on_launch
+  map_public_ip_on_launch = var.map_public_ip_on_launch 
 
   # A map of tags to assign to the resource.
   tags = {
